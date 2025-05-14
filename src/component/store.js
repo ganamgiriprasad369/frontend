@@ -6,7 +6,7 @@ function Store(){
     let [datas, setDatas] = useState([]);
   
   useEffect(()=>{
-      axios.get('https://backend-2-xnnt.onrender.com/notes')
+      axios.get('https://backend-u6s4.onrender.com/notes')
       .then(response=>{
         console.log(response.data)
         setDatas(response.data);

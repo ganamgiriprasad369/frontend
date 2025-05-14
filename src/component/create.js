@@ -15,7 +15,7 @@ function Create()
             content:content
         }
         try{
-            let response = await axios.post('https://backend-2-xnnt.onrender.com/notes', data)
+            let response = await axios.post('https://backend-u6s4.onrender.com/notes', data)
             console.log(response.data)
             alert('create note successfully....')
         }
